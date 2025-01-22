@@ -20,6 +20,12 @@ elseif($symbol=="*"){
     echo "The multiplication of two number is : $multiplication";
 }
 
-
+elseif($symbol=="/"){
+    $division=$firstValue/$secondValue;
+    echo "The division of two number is : $division";
+}
+else{
+    echo "Symbol Was Not Found!";
+}
 
 ?>
