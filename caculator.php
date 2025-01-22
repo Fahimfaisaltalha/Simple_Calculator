@@ -11,6 +11,15 @@ if($symbol == "+"){
     $sum=$firstValue+$secondValue;
     echo "The Summation of two number is : $sum";
 }
+elseif($symbol=="-"){
+    $subtract=$firstValue-$secondValue;
+    echo "The Subtraction of two number is : $subtract";
+}
+elseif($symbol=="*"){
+    $multiplication=$firstValue*$secondValue;
+    echo "The multiplication of two number is : $multiplication";
+}
+
 
 
 ?>
